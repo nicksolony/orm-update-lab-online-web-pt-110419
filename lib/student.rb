@@ -35,7 +35,7 @@ class Student
   def save
     #This instance method inserts a new row into the database using the attributes of the given object. This method also assigns the id attribute of the object once the row has been inserted into the database.
 
-
+    
   
   end
   
