@@ -8,6 +8,7 @@ class Student
   attr_reader :id
   
   def initialize (name, grade, id = nil)
+    #This method takes in three arguments, the id, name and grade. The id should default to nil.
     @name= name
     @grade = grade
     @id = id
