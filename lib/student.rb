@@ -45,7 +45,9 @@ class Student
   end
   
   def update
-    
+    #This method updates the database row mapped to the given Student instance.
+
+
   
   end
   
