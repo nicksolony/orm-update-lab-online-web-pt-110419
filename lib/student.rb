@@ -55,7 +55,10 @@ class Student
   end
   
   def self.new_from_db
-    #
+    #this method creates a new record from a database row
+    
+  
+  end
   
   
   def update
