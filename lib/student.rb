@@ -47,8 +47,10 @@ class Student
   def update
     #This method updates the database row mapped to the given Student instance.
       
-    
-  
+    sql = <<-SQL
+          UPDATE students SET name = ?, grade = ? WHERE id=?;
+          SQL
+    DB[:conn].execute(sql,self.name,self.grade,self.id)
   end
   
   
