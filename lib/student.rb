@@ -24,5 +24,7 @@ class Student
             );
             SQL
   end
+  
+  
 
 end
