@@ -54,9 +54,9 @@ class Student
     student
   end
   
-  def self.new_from_db
+  def self.new_from_db(row)
     #this method creates a new record from a database row
-    
+    self.new(row[1],row[2],row[0])
   
   end
   
