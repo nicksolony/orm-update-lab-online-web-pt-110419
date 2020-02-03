@@ -61,7 +61,7 @@ class Student
   
   def self.find_by_name(name)
     #This class method takes in an argument of a name
-    sql = "SELECT * FROM students WHERE name = ?;"
+    sql = "SELECT * FROM students WHERE name = ? LIMIT 1;"
     row = DB[:conn].execute(sql,name).first
     self.new_from_db(row)
   
