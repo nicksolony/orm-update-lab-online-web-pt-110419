@@ -49,7 +49,9 @@ class Student
   
   def self.create(name:,grade:)
     #This method creates a student with two attributes, name and grade, and saves it into the students table.
-    
+    student = self.new(name,grade)
+    student.save
+    student
 
   end
   
