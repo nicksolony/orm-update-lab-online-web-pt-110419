@@ -60,7 +60,10 @@ class Student
   end
   
   def self.find_by_name
-    #
+    #This class method takes in an argument of a name
+    
+  
+  end
   
   
   def update
