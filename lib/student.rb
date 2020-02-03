@@ -17,7 +17,9 @@ class Student
   def self.create_table
     #This class method creates the students table with columns that match the attributes of our individual students: an id (which is the primary key), the name and the grade.
     sql = <<-SQL
-            CREATE TABLE students IF NOT EXISTS 
+            CREATE TABLE IF NOT EXISTS students (
+            id I
+            );
             SQL
   end
 
