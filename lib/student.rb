@@ -15,6 +15,7 @@ class Student
   end
   
   def self.create_table
+    #This class method creates the students table with columns that match the attributes of our individual students: an id (which is the primary key), the name and the grade.
     
   end
 
